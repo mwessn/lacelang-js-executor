@@ -553,6 +553,7 @@ async function runCall(
       response: responseRec,
       assertions,
       config: resolvedCfg,
+      error,
     },
     prev: env.prev,
   });
